@@ -40,8 +40,8 @@ To ensure proper execution of the notebooks, the following libraries and framewo
 - tqdm
 - PyTorch
 - torchvision
-- torch-fidelity (for DDPM notebooks)
-- PIL (for GAN notebooks)
+- torch-fidelity
+- PIL
 
 ## Acknowledgements
 We extend our gratitude to Brian Pulfer for his U-Net implementation, which significantly aided in establishing our baseline for the Unconditional DDPM. His code can be found at [Brian Pulfer's GitHub](https://github.com/BrianPulfer/PapersReimplementations/blob/main/src/cv/ddpm/models.py). Additionally, we appreciate the educational resources provided by Jason Brownlee at Machine Learning Mastery, which offered an accessible introduction to programming Deep Convolutional GANs. His tutorial can be accessed at [Machine Learning Mastery's guide to DCGANs](https://machinelearningmastery.com/how-to-develop-a-conditional-generative-adversarial-network-from-scratch/).
