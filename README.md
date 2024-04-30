@@ -29,6 +29,8 @@ The `dcgan.ipynb` notebook implements an Unconditional Deep Convolutional GAN (D
 ### Conditional DCGAN
 The `cdcgan.ipynb` notebook covers the Conditional Deep Convolutional GAN (DCGAN). It enhances the generative capabilities of DCGAN by conditioning the generation process on class label information.
 
+All four notebooks include code for calculating quantitative metrics.
+
 ## Usage
 Open the notebook of choice within any Jupyter environment and execute the cells sequentially as per the instructions provided within the notebook.
 
