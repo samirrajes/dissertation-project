@@ -1,6 +1,6 @@
 # A Comparative Analysis of Generative Paradigms for Text to Image Synthesis
 
-**University of Warwick CS310 - Final Year Project/Undergradute Thesis**
+**University of Warwick CS310 - Final Year Project/Undergraduate Thesis**
 
 ## Introduction
 This project explores various generative models for synthesizing images from textual descriptions. It particularly focuses on comparing two major paradigms: Diffusion Models (DDPM) and Generative Adversarial Networks (GANs). Both unconditional and conditional approaches are analyzed using FID metrics on the FashionMNIST dataset.
