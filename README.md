@@ -21,15 +21,15 @@ This project explores various generative models for synthesizing images from tex
 The `ddpm.ipynb` notebook explores the Unconditional Denoising Diffusion Probabilistic Model (DDPM). This model generates images without conditioning on any additional external information.
 
 ### Conditional DDPM
-The `cfg-ddpm.ipynb` notebook details the Conditional Denoising Diffusion Probabilistic Model. It conditions the image generation process on class labels to guide the synthesis process.
+The `cfg-ddpm.ipynb` notebook details the Conditional Denoising Diffusion Probabilistic Model. It conditions the image generation process on class labels to guide the synthesis process using principles from Classifier-Free Guidance Diffusion.
 
 ### Unconditional DCGAN
 The `dcgan.ipynb` notebook implements an Unconditional Deep Convolutional GAN (DCGAN). This model learns to generate new images from noise without any conditional input.
 
 ### Conditional DCGAN
-The `cdcgan.ipynb` notebook covers the Conditional Deep Convolutional GAN (DCGAN). It enhances the generative capabilities of DCGAN by conditioning the generation process on class label information.
+The `cdcgan.ipynb` notebook covers the Conditional Deep Convolutional GAN (cDCGAN). It enhances the generative capabilities of DCGAN by conditioning the generation process on class label information.
 
-All four notebooks include code for calculating quantitative metrics.
+All four notebooks include code for calculating quantitative metrics (FID scores).
 
 ## Usage
 Open the notebook of choice within any Jupyter environment and execute the cells sequentially as per the instructions provided within the notebook.
