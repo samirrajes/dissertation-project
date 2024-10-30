@@ -2,6 +2,8 @@
 
 **University of Warwick CS310 - Final Year Project/Undergraduate Thesis**
 
+You can read my dissertation [here](project.pdf)!
+
 ## Introduction
 This project explores various generative models for synthesizing images from textual descriptions. It particularly focuses on comparing two major paradigms: Diffusion Models (DDPM) and Generative Adversarial Networks (GANs). Both unconditional and conditional approaches are analyzed using FID metrics on the FashionMNIST dataset.
 
